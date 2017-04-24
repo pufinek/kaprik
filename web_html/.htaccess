@@ -1,0 +1,2 @@
+RewriteEngine on
+//RewriteRule ^apple-touch.*\.png$ ./styles/images/mojeikona.png [R=301,L]

@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'kaprik';
+  src: url('fonts/MTCORSVA.eot');
+  src: local('MTCORSVA'), url('fonts/MTCORSVA.woff') format('woff'), url('fonts/MTCORSVA.ttf') format('truetype');
+}
+.font-kaprik {
+  font-family: 'kaprik' !important;
+}
