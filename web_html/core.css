@@ -3,6 +3,127 @@
   src: url('fonts/MTCORSVA.eot');
   src: local('MTCORSVA'), url('fonts/MTCORSVA.woff') format('woff'), url('fonts/MTCORSVA.ttf') format('truetype');
 }
+body {
+  background-color: #fff;
+  text-align: center;
+  font-size: 13px;
+}
+* {
+  margin-left: auto;
+  margin-right: auto;
+  outline: none;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  font-family: "Trebuchet MS";
+}
 .font-kaprik {
   font-family: 'kaprik' !important;
+}
+h1 {
+  color: #213223;
+  text-align: center;
+  font-size: 50px;
+}
+header {
+  max-width: 1240px;
+  text-align: left;
+}
+.header-top {
+  display: inline-block;
+  width: 100%;
+  height: 120px;
+}
+.header-top .logo {
+  max-height: 100%;
+}
+.header-top .header-info {
+  float: right;
+  line-height: 120px;
+}
+.header-top .header-info .phone,
+.header-top .header-info .mail {
+  float: left;
+  font-size: 2em;
+  color: #000;
+}
+.header-top .header-info .phone {
+  margin-right: 1.5em;
+}
+.header-top .header-info .icon {
+  color: #2A8235;
+}
+.zone-wrapper {
+  max-width: 1240px;
+  border-radius: 1% 1% 0 0;
+  background-color: #D4ECD7;
+  margin: 0 auto;
+  text-align: left;
+  width: 100%;
+  display: inline-block;
+  padding: 30px;
+  min-height: 800px;
+}
+.green-background {
+  background-color: #213223;
+  position: absolute;
+  z-index: -1;
+  height: 460px;
+  width: 100%;
+  top: 125px;
+}
+header {
+  height: 215px;
+}
+footer {
+  min-height: 280px;
+  width: 100%;
+  background-color: #213223;
+}
+nav {
+  margin-top: 15px;
+}
+nav ul {
+  margin: 10px 1em 0 3em;
+  padding: 0;
+  list-style: none;
+  display: inline-block;
+}
+nav ul li {
+  float: left;
+  color: #fff;
+  font-size: 1.3em;
+  padding: 0.3em 1em;
+  line-height: 1.5em;
+}
+nav ul li a,
+nav ul li a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+nav ul li.active {
+  border-bottom: 4px solid #2A8235;
+}
+nav ul li.button {
+  background-color: #2A8235;
+}
+nav ul.right {
+  float: right;
+  margin: 10px 3em 0 1em;
+}
+@media screen and (max-width: 1024px) {
+  .zone-wrapper {
+    padding: 0 15px;
+  }
+}
+.region-third {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+}
+.region-third .block {
+  width: calc(33.33% - 20px);
+  border: 1px solid black;
+  min-height: 200px;
 }

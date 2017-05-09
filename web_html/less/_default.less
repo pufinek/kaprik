@@ -1,3 +1,54 @@
+body{
+	background-color: @body-background;
+	text-align: center;
+	font-size: 13px;
+}
+*{
+	margin-left: auto;
+	margin-right: auto;
+	outline: none;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	font-family: "Trebuchet MS";
+
+}
+
 .font-kaprik{
 	font-family: 'kaprik' !important;
+}
+h1{
+	color: @color-green-dark;
+	text-align: center;
+	font-size: @title-font-size;
+
+}
+
+//<header>
+header{
+	max-width: 1240px;
+	text-align: left;
+}
+.header-top{
+	display: inline-block;
+	width: 100%;
+	height: 120px;
+	.logo{
+		max-height: 100%;
+	}
+	.header-info{
+		float: right;
+		line-height: 120px;
+		.phone, .mail{
+			float: left;
+			font-size: 2em;
+			color:@font-color-dark;
+		}
+		.phone{
+			margin-right: 1.5em;
+		}
+		.icon{
+			color: @color-green;
+		}
+	}
 }
