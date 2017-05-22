@@ -1,13 +1,17 @@
 .region-third{
-	display: flex;
+	//display: flex;
 	flex-wrap: wrap;
 	width: 100%;
 	justify-content: space-between;
+
 	.block{
-		width: ~"calc(33.33% - 20px)";
-		border: 1px solid black;
-		min-height: 200px;
-
-
+		width: ~"calc(33.33% - 13.33px)";
+		//border: 1px solid black;
+		min-height: 50px;
+		margin-right: 20px;
+		float: left;
+		&:last-child{
+			margin-right: 0;
+		}
 	}
 }
